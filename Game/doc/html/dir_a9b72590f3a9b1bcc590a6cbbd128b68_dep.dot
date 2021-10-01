@@ -1,0 +1,31 @@
+digraph "src/Manager" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_68267d1309a1af8e8297ef4c3efbcdba {
+    graph [ bgcolor="#ddddee", pencolor="black", label="src" fontname="Helvetica", fontsize="10", URL="dir_68267d1309a1af8e8297ef4c3efbcdba.html"]
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68 [shape=box, label="Manager", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_a9b72590f3a9b1bcc590a6cbbd128b68.html"];
+  }
+  dir_3624c3011e0f2f30fa93f2c3df0f9e35 [shape=box label="Debug" URL="dir_3624c3011e0f2f30fa93f2c3df0f9e35.html"];
+  dir_3813464283bee2267f39dcf080a84d74 [shape=box label="Math" URL="dir_3813464283bee2267f39dcf080a84d74.html"];
+  dir_c64386e93f356b78d4612c7b7741707c [shape=box label="Audio" URL="dir_c64386e93f356b78d4612c7b7741707c.html"];
+  dir_fcd885f1a88303dde966862518267a94 [shape=box label="GameObject" URL="dir_fcd885f1a88303dde966862518267a94.html"];
+  dir_4e4e2e75df7fa6971448b424c011c8b5 [shape=box label="GUI" URL="dir_4e4e2e75df7fa6971448b424c011c8b5.html"];
+  dir_85747022a2a7635edb179088943f788f [shape=box label="GameState" URL="dir_85747022a2a7635edb179088943f788f.html"];
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68->dir_3624c3011e0f2f30fa93f2c3df0f9e35 [headlabel="3", labeldistance=1.5 headhref="dir_000006_000002.html"];
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68->dir_3813464283bee2267f39dcf080a84d74 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000007.html"];
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68->dir_c64386e93f356b78d4612c7b7741707c [headlabel="2", labeldistance=1.5 headhref="dir_000006_000001.html"];
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68->dir_fcd885f1a88303dde966862518267a94 [headlabel="2", labeldistance=1.5 headhref="dir_000006_000003.html"];
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68->dir_4e4e2e75df7fa6971448b424c011c8b5 [headlabel="1", labeldistance=1.5 headhref="dir_000006_000005.html"];
+  dir_a9b72590f3a9b1bcc590a6cbbd128b68->dir_85747022a2a7635edb179088943f788f [headlabel="3", labeldistance=1.5 headhref="dir_000006_000004.html"];
+  dir_fcd885f1a88303dde966862518267a94->dir_3624c3011e0f2f30fa93f2c3df0f9e35 [headlabel="2", labeldistance=1.5 headhref="dir_000003_000002.html"];
+  dir_fcd885f1a88303dde966862518267a94->dir_3813464283bee2267f39dcf080a84d74 [headlabel="3", labeldistance=1.5 headhref="dir_000003_000007.html"];
+  dir_fcd885f1a88303dde966862518267a94->dir_a9b72590f3a9b1bcc590a6cbbd128b68 [headlabel="7", labeldistance=1.5 headhref="dir_000003_000006.html"];
+  dir_fcd885f1a88303dde966862518267a94->dir_85747022a2a7635edb179088943f788f [headlabel="4", labeldistance=1.5 headhref="dir_000003_000004.html"];
+  dir_4e4e2e75df7fa6971448b424c011c8b5->dir_a9b72590f3a9b1bcc590a6cbbd128b68 [headlabel="1", labeldistance=1.5 headhref="dir_000005_000006.html"];
+  dir_4e4e2e75df7fa6971448b424c011c8b5->dir_85747022a2a7635edb179088943f788f [headlabel="1", labeldistance=1.5 headhref="dir_000005_000004.html"];
+  dir_85747022a2a7635edb179088943f788f->dir_3624c3011e0f2f30fa93f2c3df0f9e35 [headlabel="2", labeldistance=1.5 headhref="dir_000004_000002.html"];
+  dir_85747022a2a7635edb179088943f788f->dir_a9b72590f3a9b1bcc590a6cbbd128b68 [headlabel="12", labeldistance=1.5 headhref="dir_000004_000006.html"];
+  dir_85747022a2a7635edb179088943f788f->dir_fcd885f1a88303dde966862518267a94 [headlabel="2", labeldistance=1.5 headhref="dir_000004_000003.html"];
+  dir_85747022a2a7635edb179088943f788f->dir_4e4e2e75df7fa6971448b424c011c8b5 [headlabel="1", labeldistance=1.5 headhref="dir_000004_000005.html"];
+}
